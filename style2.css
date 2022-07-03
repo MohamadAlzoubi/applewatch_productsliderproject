@@ -18,7 +18,7 @@ h1 {
 .infotitle {
     color: #6e6e73;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
 }
 h2 {
@@ -29,12 +29,7 @@ h2 {
     line-height: 1.14286;
     font-weight: 600;
 }
-.price {
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
-    font-weight: 300;
-    font-size: 14px;
-    font-style: normal;
-}
+
 .product_img {
     height: 264px;
     width: 340px;
@@ -56,18 +51,42 @@ h2 {
     width: 400px;
     box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
     transition: all .3s cubic-bezier(0,0,.5,1);
-
-  
-    /* border-radius: 20px;
-    box-shadow: 2px 4px 12px rgb(0 0 0 / 8%);
-    padding-top: 10px;
-    padding-bottom: 40px;
-    display: block; */
-    
 }
 .titles {
     padding: 30px 30px 16px;
 }
+ul {
+    display: inline-flex; 
+    list-style-type:none;
+    padding: 24px 0px 0px 0px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+li {
+    display: list-item;
+    padding-right: 5px;
+}
+.plus_li {
+    font-weight: 100;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    font-size: 15px;
+    width: 9px;
+    height: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detail {
+    margin: 30px;
+    justify-content: space-between;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    font-weight: 300;
+    font-size: 14px;
+    font-style: normal;
+}
+
 .button {
     color: #fff;
     cursor: pointer;
@@ -76,15 +95,17 @@ h2 {
     white-space: nowrap;
     font-size: 17px;
     line-height: 1.17648;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: -.022em;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+    text-decoration: none;
     min-width: 28px;
     padding: 8px 16px;
     border-radius: 980px;
     background: #0071e3;
+    border: none;
+    float: right;
+    align-items: center;
+   display: flex;
    
-}
-.detail {
-    margin: 30px;
 }
